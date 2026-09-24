@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Mono, Newsreader, Plus_Jakarta_Sans } from "next/font/google";
-import { notFound } from "next/navigation";
-import type { Locale } from "@/lib/data";
-import { isLocale } from "@/lib/i18n";
 import "../globals.css";
 
 const sans = Plus_Jakarta_Sans({
@@ -34,23 +31,14 @@ export const metadata: Metadata = {
   },
 };
 
-export function generateStaticParams() {
-  return [{ locale: "pt" }, { locale: "en" }];
-}
-
-export default async function LocaleLayout({
+export default function RootLayout({
   children,
-  params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
-  if (!isLocale(locale)) notFound();
-
   return (
     <html
-      lang={locale as Locale}
+      lang="pt"
       data-scroll-behavior="smooth"
       className={`${sans.variable} ${display.variable} ${mono.variable}`}
     >
