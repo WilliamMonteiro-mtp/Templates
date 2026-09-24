@@ -1,35 +1,30 @@
-# Portfólio de William Monteiro
+# Template Analytics Dashboard
 
-Bem-vindo ao meu portfólio pessoal e bilingue, construído para demonstrar meus projetos e habilidades.
+Um template de Dashboard de Analytics em Modo Escuro, ultra-premium e hiper-realista, desenvolvido com **Next.js** e **Tailwind CSS**.
 
-## 🚀 Como executar o projeto
+## Módulos e Funcionalidades
+Este template inclui uma arquitetura de Single Page Application (SPA) com navegação lateral dinâmica e 6 ecrãs completos:
 
-1. Instale as dependências:
+- 📊 **Executive Overview**: Resumo executivo, tendências de faturação, análise de conversão e desempenho da equipa.
+- 💰 **Sales Dashboard**: Gráfico de Pipeline em Área 3D, Mapa de Calor global e os produtos mais vendidos.
+- 🎯 **Marketing Dashboard**: Gráficos de barras sobrepostas para análise de CAC vs LTV e detalhe de tráfego por canal.
+- 📦 **Inventory Dashboard**: Medidores circulares aninhados para ocupação de armazéns e rastreio de logística (Supply Chain).
+- 📈 **Financials Dashboard**: Matriz avançada de Lucros e Perdas (P&L) e análise de Cash Flow.
+- 📑 **Reports Dashboard**: Tabela de dados (Data Grid) massiva com simulação de filtros, exportação e ações por linha.
+
+Tudo é renderizado utilizando ícones do **Lucide-React** e formas **SVG** construídas nativamente para alta performance.
+
+## Como Correr Localmente
+
+1. Instalar as dependências:
    ```bash
    npm install
    ```
-
-2. Inicie o servidor de desenvolvimento:
+2. Iniciar o servidor de desenvolvimento:
    ```bash
    npm run dev
    ```
+3. Abrir [http://localhost:3000](http://localhost:3000) no browser.
 
-3. Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
-
-## 🛠️ Tecnologias utilizadas
-
-- **React 19**
-- **Next.js 16**
-- **Tailwind CSS 4**
-- **TypeScript**
-- **Lucide React** (Ícones)
-
-## 📁 Estrutura principal
-- `src/` - Código-fonte da aplicação.
-- `public/` - Arquivos estáticos (imagens, fontes, etc).
-- `conteudo/` - Dados e conteúdos do portfólio.
-- `pdf/` - Documentos e currículos.
-
-## 📝 Licença
-
-Este projeto é privado (UNLICENSED).
+## Autor
+Criado por **William Monteiro**.

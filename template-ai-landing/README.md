@@ -1,35 +1,24 @@
-# Portfólio de William Monteiro
+# Template AI Landing
 
-Bem-vindo ao meu portfólio pessoal e bilingue, construído para demonstrar meus projetos e habilidades.
+Um template moderno, responsivo e futurista para landing pages de produtos ou startups de Inteligência Artificial, desenvolvido com **Next.js** e **Tailwind CSS**.
 
-## 🚀 Como executar o projeto
+## Funcionalidades
+- Seções prontas (Hero, Funcionalidades, Preçário, Testemunhos).
+- Efeitos futuristas, animações CSS e Modo Escuro elegante.
+- Interface limpa focada em conversão (Call to Action).
+- Totalmente responsivo para telemóvel e desktop.
 
-1. Instale as dependências:
+## Como Correr Localmente
+
+1. Instalar as dependências:
    ```bash
    npm install
    ```
-
-2. Inicie o servidor de desenvolvimento:
+2. Iniciar o servidor de desenvolvimento:
    ```bash
    npm run dev
    ```
+3. Abrir [http://localhost:3000](http://localhost:3000) no browser.
 
-3. Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
-
-## 🛠️ Tecnologias utilizadas
-
-- **React 19**
-- **Next.js 16**
-- **Tailwind CSS 4**
-- **TypeScript**
-- **Lucide React** (Ícones)
-
-## 📁 Estrutura principal
-- `src/` - Código-fonte da aplicação.
-- `public/` - Arquivos estáticos (imagens, fontes, etc).
-- `conteudo/` - Dados e conteúdos do portfólio.
-- `pdf/` - Documentos e currículos.
-
-## 📝 Licença
-
-Este projeto é privado (UNLICENSED).
+## Autor
+Criado por **William Monteiro**.

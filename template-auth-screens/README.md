@@ -1,35 +1,24 @@
-# Portfólio de William Monteiro
+# Template Auth Screens
 
-Bem-vindo ao meu portfólio pessoal e bilingue, construído para demonstrar meus projetos e habilidades.
+Um template moderno, responsivo e minimalista para fluxos de autenticação (Login, Registo, Recuperação de Password), desenvolvido com **Next.js** e **Tailwind CSS**.
 
-## 🚀 Como executar o projeto
+## Funcionalidades
+- Fluxos completos de Login / Registo
+- Efeitos visuais modernos (Glassmorphism, Modo Escuro por defeito)
+- Componentes modulares e reutilizáveis
+- Design de classe premium e altamente apelativo
 
-1. Instale as dependências:
+## Como Correr Localmente
+
+1. Instalar as dependências:
    ```bash
    npm install
    ```
-
-2. Inicie o servidor de desenvolvimento:
+2. Iniciar o servidor de desenvolvimento:
    ```bash
    npm run dev
    ```
+3. Abrir [http://localhost:3000](http://localhost:3000) no browser.
 
-3. Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
-
-## 🛠️ Tecnologias utilizadas
-
-- **React 19**
-- **Next.js 16**
-- **Tailwind CSS 4**
-- **TypeScript**
-- **Lucide React** (Ícones)
-
-## 📁 Estrutura principal
-- `src/` - Código-fonte da aplicação.
-- `public/` - Arquivos estáticos (imagens, fontes, etc).
-- `conteudo/` - Dados e conteúdos do portfólio.
-- `pdf/` - Documentos e currículos.
-
-## 📝 Licença
-
-Este projeto é privado (UNLICENSED).
+## Autor
+Criado por **William Monteiro**.
