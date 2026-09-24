@@ -1,11 +1,9 @@
 "use client";
 
-import { PersonData, Locale } from "@/lib/data";
 import { ArrowRight, Hexagon } from "lucide-react";
-import { LangSwitch } from "./LangSwitch";
 import { useState } from "react";
 
-export function Portfolio({ data, locale }: { data: PersonData, locale: Locale }) {
+export function Portfolio() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -25,19 +23,18 @@ export function Portfolio({ data, locale }: { data: PersonData, locale: Locale }
         <header className="p-6 md:p-10 flex items-center justify-between">
           <div className="flex items-center gap-2 font-bold text-lg">
             <div className="w-8 h-8 bg-[var(--gold-500)] text-white rounded-[var(--radius-sm)] flex items-center justify-center">
-              {data.initials}
+              WM
             </div>
-            {data.displayName}
+            Template Auth
           </div>
-          <LangSwitch locale={locale} label={locale === 'pt' ? 'EN' : 'PT'} />
         </header>
 
         {/* Form Container */}
         <div className="flex-1 flex flex-col justify-center px-6 md:px-16 lg:px-24 max-w-xl mx-auto w-full pb-20">
           
           <div className="mb-8">
-            <h1 className="text-3xl font-bold mb-2 tracking-tight">{data.kicker[locale]}</h1>
-            <p className="text-[var(--text-secondary)]">{data.positioning[locale]}</p>
+            <h1 className="text-3xl font-bold mb-2 tracking-tight">Bem-vindo de volta</h1>
+            <p className="text-[var(--text-secondary)]">Insira os seus dados para aceder à plataforma.</p>
           </div>
 
           {/* Social Logins */}
@@ -94,7 +91,7 @@ export function Portfolio({ data, locale }: { data: PersonData, locale: Locale }
           </form>
 
           <p className="mt-8 text-center text-sm text-[var(--text-secondary)]">
-            {locale === 'pt' ? 'Não tens conta?' : 'Don\'t have an account?'} <a href="#" className="font-medium text-[var(--gold-400)] hover:underline">{locale === 'pt' ? 'Regista-te grátis' : 'Sign up for free'}</a>
+            Não tens conta? <a href="#" className="font-medium text-[var(--gold-400)] hover:underline">Regista-te grátis</a>
           </p>
         </div>
 
@@ -121,15 +118,13 @@ export function Portfolio({ data, locale }: { data: PersonData, locale: Locale }
         <div className="relative z-10">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[var(--gold-500)]/30 bg-[var(--gold-500)]/10 text-[var(--gold-400)] text-xs font-bold mb-6">
             <span className="w-2 h-2 rounded-full bg-[var(--gold-400)] animate-pulse"></span>
-            {locale === 'pt' ? 'Nova Funcionalidade' : 'New Feature'}
+            Nova Funcionalidade
           </div>
           <h2 className="text-3xl lg:text-4xl font-extrabold mb-6 leading-tight tracking-tight">
-            {locale === 'pt' ? 'Acelere o seu fluxo com a nossa plataforma.' : 'Accelerate your workflow with our platform.'}
+            Acelere o seu fluxo com a nossa plataforma.
           </h2>
           <p className="text-lg text-[var(--text-secondary)]">
-            {locale === 'pt' 
-              ? 'Junte-se a milhares de equipas que já estão a construir o futuro.' 
-              : 'Join thousands of teams that are already building the future.'}
+            Junte-se a milhares de equipas que já estão a construir o futuro.
           </p>
         </div>
 
@@ -137,10 +132,10 @@ export function Portfolio({ data, locale }: { data: PersonData, locale: Locale }
         <div className="relative z-10 bg-white/5 backdrop-blur-md rounded-[var(--radius-lg)] shadow-[0_20px_40px_-15px_rgba(0,0,0,0.5)] border border-white/10 p-6 translate-x-8 translate-y-8 hover:translate-x-6 transition-transform duration-500">
           <div className="flex items-center gap-4 mb-6">
             <div className="w-12 h-12 bg-gradient-to-br from-[var(--gold-400)] to-[var(--gold-600)] rounded-full flex items-center justify-center font-bold text-lg text-[var(--void)]">
-              {data.initials.charAt(0)}
+              WM
             </div>
             <div>
-              <div className="font-bold text-[var(--text)]">{data.displayName}</div>
+              <div className="font-bold text-[var(--text)]">William Monteiro</div>
               <div className="text-xs text-[var(--gold-400)]">Enterprise Plan</div>
             </div>
           </div>
