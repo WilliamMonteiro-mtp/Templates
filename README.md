@@ -14,6 +14,9 @@ Uma *Landing Page* SaaS moderna em *Dark Mode* para plataformas de Inteligência
 ### 3. [Template Auth Screens](./template-auth-screens)
 Ecrãs de autenticação luxuosos com simulações de UI baseadas em *glassmorphism* (efeito de vidro). Perfeito para ecrãs de *login* e registo envolventes em aplicações web modernas.
 
+### 4. [Template Analytics Dashboard](./template-analytics-dashboard)
+Um *dashboard* de análise de dados avançado, ultrarrealista e em *Dark Mode*. Inclui gráficos vetoriais nativos, tipografia técnica, seis secções distintas de KPI (Overview, Performance, Conversões, Inventário) e uma tabela de relatórios super detalhada.
+
 ---
 
 ## 🛠️ Stack Tecnológico
