@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --void: #F5F3EC;
+  --card: #FFFFFF;
+  --text: #1C1D18;
+  --text-secondary: #4A4D42;
+  --border: #E5E0D8;
+  --accent-dark: #1E201B;
+}
+
+body {
+  background-color: var(--void);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: "Times New Roman", Times, serif;
+}

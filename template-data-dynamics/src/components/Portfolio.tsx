@@ -102,7 +102,7 @@ export function Portfolio({ locale = 'pt' }: { locale?: string }) {
         </header>
 
         {/* Dynamic View Container */}
-        <div className="flex-1 overflow-y-auto p-6 scroll-smooth">
+        <div className="flex-1 overflow-x-hidden overflow-y-auto p-6 scroll-smooth">
           <div className="max-w-[1600px] mx-auto h-full">
             {activeTab === "Market Trends" && <MarketTrendsView locale={locale} />}
             {activeTab === "Supply Chain" && <SupplyChainView locale={locale} />}
