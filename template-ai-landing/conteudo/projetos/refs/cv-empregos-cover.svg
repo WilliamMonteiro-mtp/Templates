@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" font-family="Segoe UI, Arial, Helvetica, sans-serif">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1a2130" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#04070d" flood-opacity="0.55"/>
+    </filter>
+    <filter id="card" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#25344a" flood-opacity="0.16"/>
+    </filter>
+    <clipPath id="win">
+      <rect x="100" y="90" width="1400" height="820" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#0d1017"/>
+  <rect width="1600" height="1000" fill="url(#grid)"/>
+  <rect x="100" y="90" width="1400" height="820" rx="20" fill="#ffffff" filter="url(#soft)"/>
+
+  <g clip-path="url(#win)">
+    <rect x="100" y="90" width="1400" height="58" fill="#eaf0f8"/>
+    <circle cx="136" cy="119" r="7" fill="#e07b7b"/>
+    <circle cx="162" cy="119" r="7" fill="#e0bd7b"/>
+    <circle cx="188" cy="119" r="7" fill="#79c496"/>
+    <rect x="540" y="104" width="520" height="30" rx="15" fill="#ffffff" stroke="#d5dfec"/>
+    <text x="800" y="125" font-size="16" fill="#8d99ab" text-anchor="middle">cv-empregos.cv</text>
+
+    <rect x="100" y="148" width="1400" height="76" fill="#ffffff"/>
+    <g>
+      <rect x="148" y="172" width="34" height="23" rx="4" fill="#003893"/>
+      <rect x="148" y="183" width="34" height="4" fill="#ffffff"/>
+      <rect x="148" y="187" width="34" height="4" fill="#cf2027"/>
+    </g>
+    <text x="196" y="192" font-size="26" font-weight="700" fill="#123a8a">CV Empregos</text>
+    <g font-size="17" fill="#5c6b81">
+      <text x="700" y="192">Vagas</text>
+      <text x="790" y="192">Empresas</text>
+    </g>
+    <text x="1200" y="192" font-size="17" fill="#123a8a">Entrar</text>
+    <rect x="1272" y="168" width="142" height="38" rx="10" fill="#1554c0"/>
+    <text x="1343" y="193" font-size="16" font-weight="600" fill="#ffffff" text-anchor="middle">Registar</text>
+    <line x1="100" y1="224" x2="1500" y2="224" stroke="#e3eaf3" stroke-width="2"/>
+
+    <text x="150" y="316" font-size="46" font-weight="700" fill="#0e2a5c">Encontra trabalho</text>
+    <text x="150" y="372" font-size="46" font-weight="700" fill="#0e2a5c">na tua ilha</text>
+    <text x="150" y="414" font-size="19" fill="#5f6f86">Escolhe a ilha e refina por zona, categoria e horário.</text>
+
+    <rect x="150" y="452" width="690" height="252" rx="16" fill="#ffffff" stroke="#d7e0ec" filter="url(#card)"/>
+    <g fill="#f7fafd" stroke="#cfdae8">
+      <rect x="180" y="486" width="315" height="54" rx="10"/>
+      <rect x="495" y="486" width="315" height="54" rx="10"/>
+      <rect x="180" y="556" width="315" height="54" rx="10"/>
+      <rect x="495" y="556" width="315" height="54" rx="10"/>
+    </g>
+    <g font-size="16" fill="#6d7c92">
+      <text x="202" y="519">Categoria</text>
+      <text x="517" y="519">Zona</text>
+      <text x="202" y="589">Tipo de horário</text>
+      <text x="517" y="589">Publicado em</text>
+    </g>
+    <g fill="#9aa7b8">
+      <path d="M462 508l9 10 9-10z"/>
+      <path d="M777 508l9 10 9-10z"/>
+      <path d="M462 578l9 10 9-10z"/>
+      <path d="M777 578l9 10 9-10z"/>
+    </g>
+    <rect x="180" y="626" width="630" height="52" rx="10" fill="#1554c0"/>
+    <text x="495" y="659" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">Procurar</text>
+
+    <text x="150" y="744" font-size="15" fill="#8b98aa">42 vagas em São Vicente</text>
+    <g filter="url(#card)">
+      <rect x="150" y="760" width="690" height="58" rx="12" fill="#ffffff" stroke="#dde5ef"/>
+      <rect x="150" y="828" width="690" height="58" rx="12" fill="#ffffff" stroke="#dde5ef"/>
+    </g>
+    <g fill="#eaf1fb">
+      <rect x="172" y="774" width="30" height="30" rx="7"/>
+      <rect x="172" y="842" width="30" height="30" rx="7"/>
+    </g>
+    <g fill="#1554c0">
+      <rect x="182" y="784" width="10" height="10" rx="2"/>
+      <rect x="182" y="852" width="10" height="10" rx="2"/>
+    </g>
+    <g font-size="17" font-weight="600" fill="#16304f">
+      <text x="216" y="784">Técnico de manutenção</text>
+      <text x="216" y="852">Desenvolvedor web</text>
+    </g>
+    <g font-size="14" fill="#7b8899">
+      <text x="216" y="806">Mindelo · Full-time</text>
+      <text x="216" y="874">Ribeira Bote · Estágio</text>
+    </g>
+    <g fill="#f2f6fc" stroke="#e2e9f3">
+      <rect x="700" y="777" width="118" height="24" rx="12"/>
+      <rect x="700" y="845" width="118" height="24" rx="12"/>
+    </g>
+
+    <rect x="900" y="266" width="550" height="620" rx="16" fill="#ffffff" stroke="#d7e0ec" filter="url(#card)"/>
+    <text x="936" y="316" font-size="21" font-weight="700" fill="#0e2a5c">Ilha</text>
+    <text x="1414" y="316" font-size="14" fill="#8b98aa" text-anchor="end">10 ilhas</text>
+
+    <g fill="#ffffff" stroke="#c9d6e6">
+      <rect x="936" y="348" width="24" height="24" rx="6"/>
+      <rect x="936" y="470" width="24" height="24" rx="6"/>
+      <rect x="936" y="531" width="24" height="24" rx="6"/>
+      <rect x="936" y="592" width="24" height="24" rx="6"/>
+      <rect x="936" y="653" width="24" height="24" rx="6"/>
+    </g>
+    <rect x="936" y="409" width="24" height="24" rx="6" fill="#1554c0"/>
+    <path d="M942 421l5 5 8-9" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <g font-size="18" fill="#3c4c63">
+      <text x="976" y="366">Santo Antão</text>
+      <text x="976" y="427" font-weight="600" fill="#0e2a5c">São Vicente</text>
+      <text x="976" y="488">São Nicolau</text>
+      <text x="976" y="549">Sal</text>
+      <text x="976" y="610">Boa Vista</text>
+      <text x="976" y="671">Santiago</text>
+    </g>
+    <g font-size="14" fill="#98a5b6" text-anchor="end">
+      <text x="1414" y="366">18</text>
+      <text x="1414" y="427" fill="#1554c0" font-weight="600">42</text>
+      <text x="1414" y="488">7</text>
+      <text x="1414" y="549">31</text>
+      <text x="1414" y="610">12</text>
+      <text x="1414" y="671">64</text>
+    </g>
+
+    <line x1="936" y1="712" x2="1414" y2="712" stroke="#e6ecf4" stroke-width="2"/>
+    <text x="936" y="748" font-size="15" fill="#8b98aa">Zonas em São Vicente</text>
+    <g>
+      <rect x="936" y="766" width="132" height="38" rx="19" fill="#1554c0"/>
+      <text x="1002" y="791" font-size="16" fill="#ffffff" text-anchor="middle">Mindelo</text>
+      <rect x="1080" y="766" width="160" height="38" rx="19" fill="#f2f6fc" stroke="#d7e0ec"/>
+      <text x="1160" y="791" font-size="16" fill="#4d5d75" text-anchor="middle">Ribeira Bote</text>
+      <rect x="1252" y="766" width="150" height="38" rx="19" fill="#f2f6fc" stroke="#d7e0ec"/>
+      <text x="1327" y="791" font-size="16" fill="#4d5d75" text-anchor="middle">Fonte Inês</text>
+      <rect x="936" y="816" width="188" height="38" rx="19" fill="#f2f6fc" stroke="#d7e0ec"/>
+      <text x="1030" y="841" font-size="16" fill="#4d5d75" text-anchor="middle">Monte Sossego</text>
+      <rect x="1136" y="816" width="150" height="38" rx="19" fill="#f2f6fc" stroke="#d7e0ec"/>
+      <text x="1211" y="841" font-size="16" fill="#4d5d75" text-anchor="middle">Chã de Alecrim</text>
+    </g>
+  </g>
+</svg>
