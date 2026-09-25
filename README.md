@@ -26,6 +26,9 @@ Uma experiência editorial para imobiliário de luxo, com pesquisa de propriedad
 ### 7. [Template Luxury Fashion](./template-luxury-fashion)
 Uma loja editorial bilingue para moda e acessórios de luxo. Inclui catálogo filtrável, favoritos, saco de compras, revista, newsletter e versões completas em português e inglês.
 
+### 8. [FORGE — Web Interface Library](./template-forge)
+Uma enciclopédia visual bilingue para interfaces modernas. Reúne componentes, formulários, gráficos, media, tabelas, APIs, código, padrões completos, pesquisa global e um playground interativo.
+
 ---
 
 ## 🛠️ Stack Tecnológico
