@@ -17,10 +17,19 @@ Ecrãs de autenticação luxuosos com simulações de UI baseadas em *glassmorph
 ### 4. [Template Analytics Dashboard](./template-analytics-dashboard)
 Um *dashboard* de análise de dados avançado, ultrarrealista e em *Dark Mode*. Inclui gráficos vetoriais nativos, tipografia técnica, seis secções distintas de KPI (Overview, Performance, Conversões, Inventário) e uma tabela de relatórios super detalhada.
 
+### 5. [Template Data Dynamics](./template-data-dynamics)
+Um *dashboard* orientado a dados com vistas de inventário, marketing, vendas, finanças, geoespacial e cadeia de fornecimento.
+
+### 6. [Template Real Estate](./template-real-estate)
+Uma experiência editorial para imobiliário de luxo, com pesquisa de propriedades, coleções por estilo de vida, testemunhos e áreas de destaque.
+
+### 7. [Template Luxury Fashion](./template-luxury-fashion)
+Uma loja editorial bilingue para moda e acessórios de luxo. Inclui catálogo filtrável, favoritos, saco de compras, revista, newsletter e versões completas em português e inglês.
+
 ---
 
 ## 🛠️ Stack Tecnológico
-- **Framework:** Next.js 15 (App Router)
+- **Framework:** Next.js 16 (App Router)
 - **Estilização:** Tailwind CSS (v4) / Turbopack
 - **Linguagem:** TypeScript
 - **Ícones:** Lucide React
